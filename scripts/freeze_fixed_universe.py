@@ -7,7 +7,6 @@ from pathlib import Path
 
 import pandas as pd
 
-
 INDEXES = ("NIFTY_100", "NIFTY_MIDCAP_100", "NIFTY_SMALLCAP_100")
 
 
