@@ -20,9 +20,12 @@ for individual ledger rows, not evidence that the ledger is already complete.
 | Effective date | Affected challenge index | Official change | Source | Ledger status |
 | --- | --- | --- | --- | --- |
 | 2022-04-12 | Nifty Smallcap 100 | Remove `BEML`; add `BSE` | [NSE Indices release, 5 Apr 2022](https://www.niftyindices.com/Press_Release/ind_prs05042022_1.pdf) | Verified; do not enter into production ledger until every intervening notice is catalogued. |
+| 2022-05-04 | Nifty Midcap 100 | Remove `AARTIIND`; add `HONAUT` | [NSE Indices release, 5 Apr 2022](https://www.niftyindices.com/Press_Release/ind_prs05042022.pdf) | Verified. |
 | 2022-08-08 | Nifty 100 | Remove `NMDC`, `PEL`; add `LICI`, `TATAPOWER` | [NSE Indices release, 11 Jul 2022](https://www.niftyindices.com/Press_Release/ind_prs11072022.pdf) | Verified. |
 | 2022-08-08 | Nifty Midcap 100 | Remove `TATAPOWER`; add `DELHIVERY` | [NSE Indices release, 11 Jul 2022](https://www.niftyindices.com/Press_Release/ind_prs11072022.pdf) | Verified. |
 | 2022-09-30 | Nifty 100, Nifty Midcap 100, Nifty Smallcap 100 | Semi-annual reconstitution; the release contains explicit remove/add tables for all three challenge indices. | [NSE Indices release, 1 Sep 2022](https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf) | Located; rows still to be transcribed and validated. |
+| 2022-12-30 | Nifty Smallcap 100 | Remove `ALLCARGO`; add `MAZDOCK` | [NSE Indices release, 6 Dec 2022](https://www.niftyindices.com/Press_Release/ind_prs06122022.pdf) | Verified. |
+| 2023-03-31 | Nifty 100, Nifty Midcap 100, Nifty Smallcap 100 | Semi-annual reconstitution; the release contains explicit remove/add tables for all three challenge indices. | [NSE Indices release, 17 Feb 2023](https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf) | Located; rows still to be transcribed and validated. |
 
 The 2022-08-08 changes demonstrate why the reconstruction engine processes all
 **REMOVE** rows before **ADD** rows at the same effective date: `TATAPOWER` moves from
