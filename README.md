@@ -6,8 +6,8 @@ point-in-time portfolio rules rather than stock-specific hindsight.
 
 ## Strategy at a glance
 
-- **Universe:** the supplied point-in-time Nifty 100, Midcap 100 and Smallcap 100
-  membership file.
+- **Universe:** an organiser-approved fixed union of Nifty 100, Midcap 100 and
+  Smallcap 100, frozen from the official 31 December 2020 NSE archive.
 - **Signals:** 12–1 month momentum, six-month momentum and 63-trading-day realised
   volatility, cross-sectionally standardised on each decision date.
 - **Selection:** the top eight eligible stocks by composite score.
@@ -23,8 +23,9 @@ controlled experiments with lagged point-in-time fundamentals later.
 
 ## Important data rules
 
-Do not replace `data/universe_history.csv` with today's index constituents. The file
-must contain historical membership that was knowable on each decision date. Prices must
+Do not replace `data/universe_fixed.csv` with today's index constituents. The fixed
+list is deliberately frozen from the 31 December 2020 official archive, as confirmed
+permissible by the organiser. Prices must
 be adjusted consistently for splits and dividends, and the initial download must include
 at least 252 trading days before 1 January 2021 for signal warm-up.
 
@@ -38,8 +39,12 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -e '.[download,dev]'
 
-# After placing point-in-time membership data at data/universe_history.csv:
-python scripts/download_yahoo_data.py --universe data/universe_history.csv
+# Build the organiser-approved fixed universe from the downloaded NSE archive:
+python scripts/build_nse_universe.py --allow-incomplete \
+  --output data/universe_history_archive_only.csv \
+  --sources-output data/universe_sources_archive_only.csv
+python scripts/freeze_fixed_universe.py
+python scripts/download_yahoo_data.py --universe data/universe_fixed.csv
 python scripts/run_backtest.py --config configs/baseline.yaml
 pytest
 ```
@@ -53,15 +58,15 @@ benchmark curve, metrics JSON and a report-ready comparison chart.
 
 ## Input schemas
 
-### `data/universe_history.csv`
+### `data/universe_fixed.csv`
 
 | effective_date | ticker | universe |
 | --- | --- | --- |
 | 2020-12-31 | RELIANCE.NS | NIFTY_100 |
 
-Each `effective_date` represents a complete constituent snapshot. A security is eligible
-on a decision date only when it appears in the most recent complete snapshot known at
-that time. Use Yahoo-formatted Indian tickers (`RELIANCE.NS`) if using the downloader.
+Each `effective_date` carries the same organiser-approved fixed list. The rows are
+repeated only to provide explicit monthly coverage for the backtest. Use Yahoo-formatted
+Indian tickers (`RELIANCE.NS`) if using the downloader.
 
 ### `data/raw/prices.csv`
 
@@ -101,35 +106,23 @@ outputs/        Generated metrics, equity curves and trades (untracked)
    buy and per sell.
 5. Include the commit hash used to generate report figures.
 
-## Building the historical universe
+## Building the fixed competition universe
 
-Import each complete historical snapshot using the official Nifty constituent CSVs (or
-their archived equivalents):
+The production pipeline freezes the complete official 31 December 2020 snapshot. This
+prevents a look-ahead in the source selection while complying with the organiser's
+permission to use a fixed list:
 
 ```bash
-python scripts/import_constituent_snapshot.py \
-  --effective-date 2021-03-31 \
-  --nifty-100 path/to/nifty100.csv \
-  --midcap-100 path/to/midcap100.csv \
-  --smallcap-100 path/to/smallcap100.csv \
-  --nifty-100-source 'https://original-source-or-archive-url' \
-  --midcap-100-source 'https://original-source-or-archive-url' \
-  --smallcap-100-source 'https://original-source-or-archive-url'
+python scripts/build_nse_universe.py --allow-incomplete \
+  --output data/universe_history_archive_only.csv \
+  --sources-output data/universe_sources_archive_only.csv
+python scripts/freeze_fixed_universe.py
 ```
 
-Repeat for every reconstitution or corporate-action change date. The importer rejects
-incomplete or duplicate snapshots and writes each source URL, file hash and 100-name
-validation result to `data/universe_sources.csv`. See `docs/assumption_register.md` for
-the current research and accounting assumptions.
-
-The exact evidence hierarchy, review-date collection grid and acceptance checks are in
-`docs/historical_universe_collection.md`.
-
-The public monthly archive provides complete evidence through March 2022 only. The
-validator writes a coverage report and refuses to overwrite a production universe when
-it finds an incomplete ZIP. Membership after that date is rebuilt only from the
-versioned official-notice ledger; see the collection protocol before using
-`scripts/reconstruct_nse_universe.py`.
+The freezer rejects incomplete or overlapping index snapshots and writes the original
+source rows and a fixed-set hash to `data/universe_fixed_sources.csv`. See
+`docs/assumption_register.md` for the confirmed rules. Point-in-time reconstruction
+tools remain available for research, but are not part of the production backtest.
 
 ## Research discipline
 

@@ -17,6 +17,6 @@ signal_weights:
   low_volatility: 0.20
 benchmark_name: NIFTY_500
 prices_path: data/raw/prices.csv
-universe_path: data/universe_history.csv
+universe_path: data/universe_fixed.csv
 benchmark_path: data/raw/benchmark.csv
 output_dir: outputs/baseline
