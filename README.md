@@ -96,3 +96,20 @@ outputs/        Generated metrics, equity curves and trades (untracked)
 4. State that execution is next-day adjusted close, and that 10 bps is charged per
    buy and per sell.
 5. Include the commit hash used to generate report figures.
+
+## Building the historical universe
+
+Import each complete historical snapshot using the official Nifty constituent CSVs (or
+their archived equivalents):
+
+```bash
+python scripts/import_constituent_snapshot.py \
+  --effective-date 2021-03-31 \
+  --nifty-100 path/to/nifty100.csv \
+  --midcap-100 path/to/midcap100.csv \
+  --smallcap-100 path/to/smallcap100.csv
+```
+
+Repeat for every reconstitution or corporate-action change date. The importer rejects
+incomplete or duplicate snapshots. See `docs/assumption_register.md` for the current
+research and accounting assumptions.
