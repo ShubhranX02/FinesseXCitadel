@@ -107,9 +107,13 @@ python scripts/import_constituent_snapshot.py \
   --effective-date 2021-03-31 \
   --nifty-100 path/to/nifty100.csv \
   --midcap-100 path/to/midcap100.csv \
-  --smallcap-100 path/to/smallcap100.csv
+  --smallcap-100 path/to/smallcap100.csv \
+  --nifty-100-source 'https://original-source-or-archive-url' \
+  --midcap-100-source 'https://original-source-or-archive-url' \
+  --smallcap-100-source 'https://original-source-or-archive-url'
 ```
 
 Repeat for every reconstitution or corporate-action change date. The importer rejects
-incomplete or duplicate snapshots. See `docs/assumption_register.md` for the current
-research and accounting assumptions.
+incomplete or duplicate snapshots and writes each source URL, file hash and 100-name
+validation result to `data/universe_sources.csv`. See `docs/assumption_register.md` for
+the current research and accounting assumptions.

@@ -1,0 +1,4 @@
+effective_date,universe,source_url,local_filename,sha256,constituent_count
+2021-03-31,NIFTY_100,https://example.org/official-or-archive-source,nifty100_20210331.csv,replace_with_sha256,100
+2021-03-31,NIFTY_MIDCAP_100,https://example.org/official-or-archive-source,midcap100_20210331.csv,replace_with_sha256,100
+2021-03-31,NIFTY_SMALLCAP_100,https://example.org/official-or-archive-source,smallcap100_20210331.csv,replace_with_sha256,100

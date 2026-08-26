@@ -13,3 +13,4 @@ material assumptions from this file.
 | A05 | Adjusted close is used, treating splits and dividends as reflected in the price series. | Provisional data convention | Must match the chosen data vendor and benchmark methodology. |
 | A06 | The baseline has eight holdings, a 20% single-name cap and monthly rebalancing. | Research baseline, not frozen | These are candidates to test on the development period only; they are not decisions made using 2026 data. |
 | A07 | January–June 2026 is never used for feature design, parameter selection or model choice. | Team decision | It remains an untouched out-of-sample stress-test period. |
+| A08 | Every universe snapshot is retained with its original source URL, local-file SHA-256 hash and validated 100-name count. | Implementation requirement | Makes the point-in-time membership evidence auditable and prevents silent data replacement. |
