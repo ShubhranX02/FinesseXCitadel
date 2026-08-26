@@ -1,0 +1,11 @@
+numpy>=1.26
+pandas>=2.2
+PyYAML>=6.0
+matplotlib>=3.8
+
+[dev]
+pytest>=8.0
+ruff>=0.6
+
+[download]
+yfinance>=0.2.54
