@@ -9,7 +9,13 @@ import pandas as pd
 
 from finesse_portfolio.backtest import run_backtest
 from finesse_portfolio.config import StrategyConfig
-from finesse_portfolio.data import load_benchmark, load_prices, load_universe, prices_to_wide
+from finesse_portfolio.data import (
+    load_benchmark,
+    load_fundamentals,
+    load_prices,
+    load_universe,
+    prices_to_wide,
+)
 from finesse_portfolio.metrics import performance_metrics
 from finesse_portfolio.reporting import annual_returns, drawdown_series, trade_diagnostics
 
@@ -35,7 +41,8 @@ def main() -> None:
     )
     prices = prices_to_wide(load_prices(config.prices_path))
     universe = load_universe(config.universe_path)
-    result = run_backtest(prices, universe, config)
+    fundamentals = load_fundamentals(config.fundamentals_path) if config.fundamentals_path else None
+    result = run_backtest(prices, universe, config, fundamentals)
     benchmark = benchmark_nav(load_benchmark(config.benchmark_path), config, result.nav.index)
     metrics = performance_metrics(result.nav, config.initial_capital, result.realised_sales)
     benchmark_metrics = performance_metrics(benchmark, config.initial_capital, pd.DataFrame())

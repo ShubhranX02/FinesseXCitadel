@@ -26,13 +26,15 @@ class StrategyConfig:
     universe_path: str
     benchmark_path: str
     output_dir: str
+    rebalance_frequency: str = "monthly"
+    fundamentals_path: str | None = None
 
     @classmethod
     def from_yaml(cls, path: str | Path) -> StrategyConfig:
         with Path(path).open() as handle:
             values = yaml.safe_load(handle)
-        if values.get("rebalance_frequency") != "monthly":
-            raise ValueError("The baseline supports monthly rebalancing only.")
+        if values.get("rebalance_frequency", "monthly") not in {"monthly", "quarterly"}:
+            raise ValueError("rebalance_frequency must be monthly or quarterly.")
         if not 1 <= values["holdings"] <= 10:
             raise ValueError("holdings must be between 1 and 10.")
         if not 0 < values["max_weight"] <= 1:
@@ -41,4 +43,9 @@ class StrategyConfig:
             raise ValueError("holdings × max_weight must be at least 1.")
         if sum(values["signal_weights"].values()) <= 0:
             raise ValueError("signal_weights must have a positive total.")
-        return cls(**{field: values[field] for field in cls.__dataclass_fields__})
+        return cls(
+            **{
+                name: values.get(name, field.default)
+                for name, field in cls.__dataclass_fields__.items()
+            }
+        )

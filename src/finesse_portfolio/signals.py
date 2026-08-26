@@ -13,6 +13,18 @@ def monthly_decision_dates(index: pd.DatetimeIndex, start: pd.Timestamp, end: pd
     return list(periods.values)
 
 
+def rebalance_dates(
+    index: pd.DatetimeIndex, start: pd.Timestamp, end: pd.Timestamp, frequency: str
+) -> list[pd.Timestamp]:
+    """Return month-end or calendar-quarter-end decision dates."""
+    dates = monthly_decision_dates(index, start, end)
+    if frequency == "monthly":
+        return dates
+    if frequency == "quarterly":
+        return [pd.Timestamp(date) for date in dates if pd.Timestamp(date).month in {3, 6, 9, 12}]
+    raise ValueError(f"Unsupported rebalance frequency: {frequency}")
+
+
 def eligible_tickers(universe: pd.DataFrame, date: pd.Timestamp) -> set[str]:
     relevant = universe[universe["effective_date"] <= date]
     if relevant.empty:
@@ -28,7 +40,13 @@ def _zscore(values: pd.Series) -> pd.Series:
     return (values - values.mean()) / std
 
 
-def factor_scores(prices: pd.DataFrame, decision_date: pd.Timestamp, universe: pd.DataFrame, config: StrategyConfig) -> pd.DataFrame:
+def factor_scores(
+    prices: pd.DataFrame,
+    decision_date: pd.Timestamp,
+    universe: pd.DataFrame,
+    config: StrategyConfig,
+    fundamentals: pd.DataFrame | None = None,
+) -> pd.DataFrame:
     history = prices.loc[:decision_date]
     required = max(config.momentum_long_days, config.momentum_short_days, config.volatility_days) + 1
     if len(history) < required:
@@ -49,6 +67,15 @@ def factor_scores(prices: pd.DataFrame, decision_date: pd.Timestamp, universe: p
             "observations": recent.notna().sum(),
         }
     )
+    if "quality_roe_debt" in config.signal_weights:
+        if fundamentals is None:
+            raise ValueError("quality_roe_debt requires dated fundamental data.")
+        available = fundamentals.loc[fundamentals["reported_date"] <= decision_date]
+        if available.empty:
+            raise ValueError(f"No fundamentals were reported by {decision_date.date()}.")
+        latest = available.drop_duplicates("ticker", keep="last").set_index("ticker")
+        factors = factors.join(latest[["roe", "debt_to_equity"]], how="left")
+        factors["quality_roe_debt"] = _zscore(factors["roe"]) - _zscore(factors["debt_to_equity"])
     candidates = factors.index.intersection(list(eligible_tickers(universe, decision_date)))
     factors = factors.loc[candidates].dropna()
     factors = factors[factors["observations"] >= config.min_price_history_days]
@@ -56,6 +83,8 @@ def factor_scores(prices: pd.DataFrame, decision_date: pd.Timestamp, universe: p
         return pd.DataFrame(columns=["score", "volatility"])
     score = pd.Series(0.0, index=factors.index)
     for name, weight in config.signal_weights.items():
+        if name not in factors:
+            raise ValueError(f"Signal {name!r} is not available in the factor data.")
         score += weight * _zscore(factors[name])
     factors["score"] = score
     return factors.sort_values("score", ascending=False)

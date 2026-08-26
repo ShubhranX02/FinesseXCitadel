@@ -5,7 +5,7 @@ from dataclasses import dataclass
 import pandas as pd
 
 from .config import StrategyConfig
-from .signals import factor_scores, monthly_decision_dates, target_weights
+from .signals import factor_scores, rebalance_dates, target_weights
 
 
 @dataclass
@@ -22,7 +22,12 @@ def _next_trading_date(index: pd.DatetimeIndex, date: pd.Timestamp) -> pd.Timest
     return later[0] if len(later) else None
 
 
-def run_backtest(prices: pd.DataFrame, universe: pd.DataFrame, config: StrategyConfig) -> BacktestResult:
+def run_backtest(
+    prices: pd.DataFrame,
+    universe: pd.DataFrame,
+    config: StrategyConfig,
+    fundamentals: pd.DataFrame | None = None,
+) -> BacktestResult:
     start, end = pd.Timestamp(config.start_date), pd.Timestamp(config.end_date)
     dates = prices.index[(prices.index >= start) & (prices.index <= end)]
     if dates.empty:
@@ -41,7 +46,7 @@ def run_backtest(prices: pd.DataFrame, universe: pd.DataFrame, config: StrategyC
     # first trading day of the mandated evaluation window, rather than sitting in cash
     # through January 2021 while waiting for the first in-period month-end.
     decision_start = start - pd.offsets.MonthEnd(1)
-    decision_dates = monthly_decision_dates(prices.index, decision_start, end)
+    decision_dates = rebalance_dates(prices.index, decision_start, end, config.rebalance_frequency)
     snapshot_dates = pd.DatetimeIndex(universe["effective_date"].unique()).sort_values()
     for decision_date in decision_dates:
         decision_date = pd.Timestamp(decision_date)
@@ -58,7 +63,9 @@ def run_backtest(prices: pd.DataFrame, universe: pd.DataFrame, config: StrategyC
         execution_date = _next_trading_date(prices.index, decision_date)
         if execution_date is None or execution_date < start or execution_date > end:
             continue
-        weights = target_weights(factor_scores(prices, decision_date, universe, config), config)
+        weights = target_weights(
+            factor_scores(prices, decision_date, universe, config, fundamentals), config
+        )
         schedules[execution_date] = weights
 
     for date in dates:

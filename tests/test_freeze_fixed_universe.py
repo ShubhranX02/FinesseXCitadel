@@ -3,7 +3,6 @@ from pathlib import Path
 
 import pandas as pd
 
-
 SPEC = importlib.util.spec_from_file_location(
     "freeze_fixed_universe", Path("scripts/freeze_fixed_universe.py")
 )

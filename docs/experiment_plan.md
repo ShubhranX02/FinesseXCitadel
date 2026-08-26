@@ -38,6 +38,12 @@ Quality and value may be tested only if we obtain a complete point-in-time funda
 reporting-date lags. We will not use current ratios copied backward. If such a dataset is unavailable,
 the final strategy remains price-only and says so plainly.
 
+The predeclared fundamental candidate is `momentum_quality_quarterly`: 40% 12–1-month momentum,
+15% six-month momentum, 10% low volatility and 35% financial quality. Financial quality is the
+cross-sectional standardised ROE minus standardised debt-to-equity, using the latest exchange-reported
+filing disseminated on or before each quarterly decision date. It holds nine names at a 16% cap and
+requires the same 10 bps cost on each buy and sell as every other candidate.
+
 ## How to run the split
 
 ```bash
