@@ -111,7 +111,8 @@ python scripts/reconstruct_nse_universe.py \
   --validated-through 2025-12-31
 ```
 
-This produces `data/universe_history_reconstructed.csv` and a notice-provenance file.
+This produces the continuous `data/universe_history.csv` (complete archive history through
+March 2022 plus reconstructed month-end history thereafter) and a notice-provenance file.
 It is a candidate production input only after every applicable notice has been entered
 and the ledger has been reconciled to an independent complete snapshot.
 
