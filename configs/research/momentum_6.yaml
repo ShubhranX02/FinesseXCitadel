@@ -1,0 +1,22 @@
+strategy_name: momentum_risk_6
+start_date: '2021-01-01'
+end_date: '2025-12-31'
+initial_capital: 10000000
+transaction_cost_rate: 0.001
+rebalance_frequency: monthly
+holdings: 6
+max_weight: 0.25
+min_price_history_days: 252
+momentum_long_days: 252
+momentum_skip_days: 21
+momentum_short_days: 126
+volatility_days: 63
+signal_weights:
+  momentum_12_1: 0.65
+  momentum_6: 0.20
+  low_volatility: 0.15
+benchmark_name: NIFTY_500
+prices_path: data/raw/prices.csv
+universe_path: data/universe_history.csv
+benchmark_path: data/raw/benchmark.csv
+output_dir: outputs/research/momentum_6

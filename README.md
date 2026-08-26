@@ -47,6 +47,10 @@ pytest
 The downloader writes `data/raw/prices.csv` and `data/raw/benchmark.csv`. Run results
 are written to `outputs/baseline/`.
 
+The generated outputs include the equity curve, drawdown series, annual-return table,
+complete order ledger, daily holdings, target weights, stock-level trade diagnostics,
+benchmark curve, metrics JSON and a report-ready comparison chart.
+
 ## Input schemas
 
 ### `data/universe_history.csv`
@@ -117,3 +121,18 @@ Repeat for every reconstitution or corporate-action change date. The importer re
 incomplete or duplicate snapshots and writes each source URL, file hash and 100-name
 validation result to `data/universe_sources.csv`. See `docs/assumption_register.md` for
 the current research and accounting assumptions.
+
+The exact evidence hierarchy, review-date collection grid and acceptance checks are in
+`docs/historical_universe_collection.md`.
+
+The public monthly archive provides complete evidence through March 2022 only. The
+validator writes a coverage report and refuses to overwrite a production universe when
+it finds an incomplete ZIP. Membership after that date is rebuilt only from the
+versioned official-notice ledger; see the collection protocol before using
+`scripts/reconstruct_nse_universe.py`.
+
+## Research discipline
+
+The predeclared candidate models and 2021–24 development / 2025 internal-holdout protocol are
+documented in `docs/experiment_plan.md`. This prevents result-driven parameter hunting and preserves
+January–June 2026 as a true out-of-sample interval.

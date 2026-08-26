@@ -37,9 +37,26 @@ def run_backtest(prices: pd.DataFrame, universe: pd.DataFrame, config: StrategyC
     target_rows: list[dict] = []
 
     schedules: dict[pd.Timestamp, pd.Series] = {}
-    for decision_date in monthly_decision_dates(prices.index, start, end):
+    # Include the immediately preceding month-end so the portfolio is invested from the
+    # first trading day of the mandated evaluation window, rather than sitting in cash
+    # through January 2021 while waiting for the first in-period month-end.
+    decision_start = start - pd.offsets.MonthEnd(1)
+    decision_dates = monthly_decision_dates(prices.index, decision_start, end)
+    snapshot_dates = pd.DatetimeIndex(universe["effective_date"].unique()).sort_values()
+    for decision_date in decision_dates:
+        decision_date = pd.Timestamp(decision_date)
+        known_dates = snapshot_dates[snapshot_dates <= decision_date]
+        if not len(known_dates):
+            raise ValueError(f"No point-in-time universe snapshot is available by {decision_date.date()}.")
+        latest_snapshot = pd.Timestamp(known_dates[-1])
+        if (decision_date - latest_snapshot).days > 45:
+            raise ValueError(
+                f"Latest universe snapshot ({latest_snapshot.date()}) is more than 45 days old on "
+                f"{decision_date.date()}."
+            )
+    for decision_date in decision_dates:
         execution_date = _next_trading_date(prices.index, decision_date)
-        if execution_date is None or execution_date > end:
+        if execution_date is None or execution_date < start or execution_date > end:
             continue
         weights = target_weights(factor_scores(prices, decision_date, universe, config), config)
         schedules[execution_date] = weights
