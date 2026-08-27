@@ -7,13 +7,18 @@ from pathlib import Path
 
 import pandas as pd
 
-from finesse_portfolio.universe_reconstruction import read_change_ledger, reconstruct_month_end_universe
+from finesse_portfolio.universe_reconstruction import (
+    read_change_ledger,
+    read_count_exceptions,
+    reconstruct_month_end_universe,
+)
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--base-universe", default="data/universe_history_archive_only.csv")
     parser.add_argument("--changes", default="data/nse_index_change_ledger.csv")
+    parser.add_argument("--count-exceptions", default="data/nse_index_count_exceptions.csv")
     parser.add_argument("--start", default="2022-04-01")
     parser.add_argument("--end", default="2025-12-31")
     parser.add_argument("--validated-through", required=True)
@@ -25,7 +30,8 @@ def main() -> None:
 
     base = pd.read_csv(args.base_universe, parse_dates=["effective_date"])
     changes = read_change_ledger(args.changes)
-    reconstructed = reconstruct_month_end_universe(base, changes, args.start, args.end)
+    count_exceptions = read_count_exceptions(args.count_exceptions)
+    reconstructed = reconstruct_month_end_universe(base, changes, args.start, args.end, count_exceptions)
     first_reconstructed_date = pd.Timestamp(reconstructed["effective_date"].min())
     archive_history = base.loc[base["effective_date"] < first_reconstructed_date].copy()
     archive_history["derivation"] = "official_complete_archive"

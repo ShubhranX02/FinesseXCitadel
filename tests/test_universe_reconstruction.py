@@ -51,3 +51,38 @@ def test_reconstruction_does_not_create_a_month_end_before_its_requested_start()
     )
     result = reconstruct_month_end_universe(_base_snapshot(), changes, "2022-04-01", "2022-05-31")
     assert set(result["effective_date"]) == {"2022-04-30", "2022-05-31"}
+
+
+def test_reconstruction_allows_an_explicit_official_count_exception() -> None:
+    changes = pd.DataFrame(
+        [
+            {"effective_date": "2022-04-15", "universe": "NIFTY_100", "action": "ADD", "ticker": "EXTRA.NS", "source_url": "https://official.example/a"},
+        ]
+    )
+    exceptions = pd.DataFrame(
+        [
+            {"effective_date": "2022-04-15", "universe": "NIFTY_100", "expected_constituent_count": 101, "source_url": "https://official.example/a"},
+        ]
+    )
+    result = reconstruct_month_end_universe(
+        _base_snapshot(), changes, "2022-04-01", "2022-04-30", exceptions
+    )
+    assert len(result.loc[result["universe"] == "NIFTY_100"]) == 101
+
+
+def test_count_exception_persists_until_a_later_official_count_is_recorded() -> None:
+    changes = pd.DataFrame(
+        [
+            {"effective_date": "2022-04-15", "universe": "NIFTY_100", "action": "ADD", "ticker": "EXTRA.NS", "source_url": "https://official.example/a"},
+        ]
+    )
+    exceptions = pd.DataFrame(
+        [
+            {"effective_date": "2022-04-15", "universe": "NIFTY_100", "expected_constituent_count": 101, "source_url": "https://official.example/a"},
+        ]
+    )
+    result = reconstruct_month_end_universe(
+        _base_snapshot(), changes, "2022-04-01", "2022-05-31", exceptions
+    )
+    may = result.loc[(result["effective_date"] == "2022-05-31") & (result["universe"] == "NIFTY_100")]
+    assert len(may) == 101

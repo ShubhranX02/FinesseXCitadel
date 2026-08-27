@@ -1,0 +1,4 @@
+effective_date,universe,source_url,local_filename,sha256,constituent_count
+2021-03-31,NIFTY_100,https://www.niftyindices.com/Indices_-_Market_Capitalisation_and_Weightage/indices_dataMar2021.zip,indices_dataMar2021.zip,c5678dfaf5e0b0a79b329509854404f18f164da83513e2a38a69c496e90b4155,100
+2021-03-31,NIFTY_MIDCAP_100,https://www.niftyindices.com/Indices_-_Market_Capitalisation_and_Weightage/indices_dataMar2021.zip,indices_dataMar2021.zip,c5678dfaf5e0b0a79b329509854404f18f164da83513e2a38a69c496e90b4155,100
+2021-03-31,NIFTY_SMALLCAP_100,https://www.niftyindices.com/Indices_-_Market_Capitalisation_and_Weightage/indices_dataMar2021.zip,indices_dataMar2021.zip,c5678dfaf5e0b0a79b329509854404f18f164da83513e2a38a69c496e90b4155,100

@@ -1,1 +1,587 @@
 effective_date,universe,action,ticker,source_url,notes
+2022-04-12,NIFTY_SMALLCAP_100,REMOVE,BEML,https://www.niftyindices.com/Press_Release/ind_prs05042022_1.pdf,official notice
+2022-04-12,NIFTY_SMALLCAP_100,ADD,BSE,https://www.niftyindices.com/Press_Release/ind_prs05042022_1.pdf,official notice
+2022-05-04,NIFTY_MIDCAP_100,REMOVE,AARTIIND,https://www.niftyindices.com/Press_Release/ind_prs05042022.pdf,official notice
+2022-05-04,NIFTY_MIDCAP_100,ADD,HONAUT,https://www.niftyindices.com/Press_Release/ind_prs05042022.pdf,official notice
+2022-08-08,NIFTY_100,REMOVE,NMDC,https://www.niftyindices.com/Press_Release/ind_prs11072022.pdf,official notice
+2022-08-08,NIFTY_100,REMOVE,PEL,https://www.niftyindices.com/Press_Release/ind_prs11072022.pdf,official notice
+2022-08-08,NIFTY_100,ADD,LICI,https://www.niftyindices.com/Press_Release/ind_prs11072022.pdf,official notice
+2022-08-08,NIFTY_100,ADD,TATAPOWER,https://www.niftyindices.com/Press_Release/ind_prs11072022.pdf,official notice
+2022-08-08,NIFTY_MIDCAP_100,REMOVE,TATAPOWER,https://www.niftyindices.com/Press_Release/ind_prs11072022.pdf,official notice
+2022-08-08,NIFTY_MIDCAP_100,ADD,DELHIVERY,https://www.niftyindices.com/Press_Release/ind_prs11072022.pdf,official notice
+2022-09-30,NIFTY_100,REMOVE,JUBLFOOD,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_100,REMOVE,LUPIN,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_100,REMOVE,MINDTREE,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_100,REMOVE,PNB,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_100,REMOVE,SAIL,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_100,REMOVE,ZYDUSLIFE,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_100,ADD,ATGL,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_100,ADD,BEL,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_100,ADD,HAL,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_100,ADD,IRCTC,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_100,ADD,MPHASIS,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_100,ADD,MOTHERSON,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_MIDCAP_100,REMOVE,ATGL,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_MIDCAP_100,REMOVE,APLLTD,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_MIDCAP_100,REMOVE,APOLLOTYRE,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_MIDCAP_100,REMOVE,BEL,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_MIDCAP_100,REMOVE,EXIDEIND,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_MIDCAP_100,REMOVE,GLENMARK,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_MIDCAP_100,REMOVE,HAL,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_MIDCAP_100,REMOVE,IDBI,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_MIDCAP_100,REMOVE,IRCTC,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_MIDCAP_100,REMOVE,MANAPPURAM,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_MIDCAP_100,REMOVE,METROPOLIS,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_MIDCAP_100,REMOVE,MPHASIS,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_MIDCAP_100,ADD,AWL,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_MIDCAP_100,ADD,JUBLFOOD,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_MIDCAP_100,ADD,LINDEINDIA,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_MIDCAP_100,ADD,LUPIN,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_MIDCAP_100,ADD,MSUMI,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_MIDCAP_100,ADD,PATANJALI,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_MIDCAP_100,ADD,POONAWALLA,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_MIDCAP_100,ADD,PNB,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_MIDCAP_100,ADD,SAIL,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_MIDCAP_100,ADD,TTML,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_MIDCAP_100,ADD,TIINDIA,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_MIDCAP_100,ADD,ZYDUSLIFE,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,REMOVE,APTUS,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,REMOVE,AVANTIFEED,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,REMOVE,BASF,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,REMOVE,CENTRALBK,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,REMOVE,DEVYANI,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,REMOVE,DBL,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,REMOVE,EDELWEISS,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,REMOVE,GMMPFAUDLR,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,REMOVE,HEG,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,REMOVE,IOB,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,REMOVE,JKLAKSHMI,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,REMOVE,JMFINANCIL,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,REMOVE,KALYANKJIL,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,REMOVE,MOTILALOFS,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,REMOVE,PNBHOUSING,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,REMOVE,POONAWALLA,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,REMOVE,PRINCEPIPE,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,REMOVE,RVNL,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,REMOVE,ROSSARI,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,REMOVE,SONATSOFTW,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,REMOVE,SPARC,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,ADD,AETHER,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,ADD,APOLLOTYRE,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,ADD,BORORENEW,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,ADD,CAMPUS,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,ADD,CREDITACC,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,ADD,DEEPAKFERT,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,ADD,EASEMYTRIP,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,ADD,ELGIEQUIP,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,ADD,EXIDEIND,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,ADD,GLENMARK,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,ADD,IDBI,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,ADD,IIFL,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,ADD,MANAPPURAM,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,ADD,MRPL,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,ADD,METROPOLIS,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,ADD,NETWORK18,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,ADD,NLCINDIA,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,ADD,POLYPLEX,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,ADD,PRAJIND,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,ADD,RENUKA,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-09-30,NIFTY_SMALLCAP_100,ADD,TRIVENI,https://www.niftyindices.com/Press_Release/ind_prs01092022.pdf,official notice
+2022-12-30,NIFTY_SMALLCAP_100,REMOVE,ALLCARGO,https://www.niftyindices.com/Press_Release/ind_prs06122022.pdf,official notice
+2022-12-30,NIFTY_SMALLCAP_100,ADD,MAZDOCK,https://www.niftyindices.com/Press_Release/ind_prs06122022.pdf,official notice
+2022-12-20,NIFTY_MIDCAP_100,REMOVE,SRTRANSFIN,https://archives.nseindia.com/corporate/SRTRANSFIN_15122022090742_CML54812.pdf,official NSE symbol change
+2022-12-20,NIFTY_MIDCAP_100,ADD,SHRIRAMFIN,https://archives.nseindia.com/corporate/SRTRANSFIN_15122022090742_CML54812.pdf,official NSE symbol change
+2023-02-06,NIFTY_SMALLCAP_100,REMOVE,PVR,https://archives.nseindia.com/corporate/PVRINOX_31082023161806_PVRINOXAGMNoticeAnnualReport31082023.pdf,company name and NSE symbol changed to PVRINOX following merger
+2023-02-06,NIFTY_SMALLCAP_100,ADD,PVRINOX,https://archives.nseindia.com/corporate/PVRINOX_31082023161806_PVRINOXAGMNoticeAnnualReport31082023.pdf,company name and NSE symbol changed to PVRINOX following merger
+2023-03-31,NIFTY_100,REMOVE,BANDHANBNK,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_100,REMOVE,BIOCON,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_100,REMOVE,GLAND,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_100,REMOVE,MPHASIS,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_100,REMOVE,PAYTM,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_100,ADD,ABB,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_100,ADD,AWL,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_100,ADD,CANBK,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_100,ADD,PAGEIND,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_100,ADD,VBL,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,REMOVE,ABB,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,REMOVE,AWL,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,REMOVE,CANBK,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,REMOVE,CLEAN,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,REMOVE,EMAMILTD,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,REMOVE,GSPL,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,REMOVE,ISEC,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,REMOVE,INDIAMART,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,REMOVE,IEX,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,REMOVE,LINDEINDIA,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,REMOVE,NATIONALUM,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,REMOVE,NAM-INDIA,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,REMOVE,PAGEIND,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,REMOVE,VBL,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,ADD,ADANIPOWER,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,ADD,APOLLOTYRE,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,ADD,BANDHANBNK,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,ADD,BIOCON,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,ADD,CGPOWER,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,ADD,DEVYANI,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,ADD,GLAND,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,ADD,FLUOROCHEM,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,ADD,IRFC,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,ADD,MPHASIS,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,ADD,NHPC,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,ADD,NMDC,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,ADD,PAYTM,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_MIDCAP_100,ADD,PEL,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,REMOVE,AETHER,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,REMOVE,ALOKINDS,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,REMOVE,APOLLOTYRE,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,REMOVE,BRIGADE,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,REMOVE,MAPMYINDIA,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,REMOVE,CHEMPLASTS,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,REMOVE,DCMSHRIRAM,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,REMOVE,DELTACORP,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,REMOVE,FINEORG,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,REMOVE,IBULHSGFIN,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,REMOVE,INDIGOPNTS,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,REMOVE,JUSTDIAL,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,REMOVE,LUXIND,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,REMOVE,MASTEK,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,REMOVE,METROBRAND,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,REMOVE,MMTC,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,REMOVE,NETWORK18,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,REMOVE,POLYPLEX,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,REMOVE,RAIN,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,REMOVE,SOBHA,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,REMOVE,SUNTECK,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,REMOVE,ZENSARTECH,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,ADD,BIKAJI,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,ADD,CENTRALBK,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,ADD,FACT,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,ADD,MEDANTA,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,ADD,GMMPFAUDLR,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,ADD,HUDCO,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,ADD,INDIACEM,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,ADD,INDIAMART,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,ADD,IEX,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,ADD,IOB,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,ADD,JKLAKSHMI,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,ADD,KALYANKJIL,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,ADD,KARURVYSYA,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,ADD,KRBL,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,ADD,NATIONALUM,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,ADD,PPLPHARMA,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,ADD,PNBHOUSING,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,ADD,RVNL,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,ADD,RAYMOND,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,ADD,RITES,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,ADD,TEJASNET,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-03-31,NIFTY_SMALLCAP_100,ADD,UCOBANK,https://www.niftyindices.com/Press_Release/ind_prs17022023_1.pdf,official notice
+2023-04-28,NIFTY_SMALLCAP_100,REMOVE,BAJAJELEC,https://www.niftyindices.com/Press_Release/ind_prs19042023_1.pdf,official replacement after demerger
+2023-04-28,NIFTY_SMALLCAP_100,ADD,COCHINSHIP,https://www.niftyindices.com/Press_Release/ind_prs19042023_1.pdf,official replacement after demerger
+2023-09-29,NIFTY_100,REMOVE,ACC,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_100,REMOVE,NYKAA,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_100,REMOVE,HDFCAMC,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_100,REMOVE,INDUSTOWER,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_100,REMOVE,PAGEIND,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_100,ADD,PNB,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_100,ADD,SHRIRAMFIN,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_100,ADD,TRENT,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_100,ADD,TVSMOTOR,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_100,ADD,ZYDUSLIFE,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_100,ADD,TATAMTRDVR,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,temporary corporate-action inclusion
+2023-09-29,NIFTY_MIDCAP_100,REMOVE,ABBOTINDIA,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_MIDCAP_100,REMOVE,HINDZINC,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_MIDCAP_100,REMOVE,HONAUT,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_MIDCAP_100,REMOVE,OFSS,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_MIDCAP_100,REMOVE,PNB,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_MIDCAP_100,REMOVE,SHRIRAMFIN,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_MIDCAP_100,REMOVE,TTML,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_MIDCAP_100,REMOVE,TRENT,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_MIDCAP_100,REMOVE,TRIDENT,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_MIDCAP_100,REMOVE,TVSMOTOR,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_MIDCAP_100,REMOVE,WHIRLPOOL,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_MIDCAP_100,REMOVE,ZYDUSLIFE,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_MIDCAP_100,ADD,ACC,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_MIDCAP_100,ADD,APLAPOLLO,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_MIDCAP_100,ADD,BDL,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_MIDCAP_100,ADD,FACT,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_MIDCAP_100,ADD,NYKAA,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_MIDCAP_100,ADD,HDFCAMC,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_MIDCAP_100,ADD,INDUSTOWER,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_MIDCAP_100,ADD,KPITTECH,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_MIDCAP_100,ADD,LODHA,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_MIDCAP_100,ADD,MAZDOCK,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_MIDCAP_100,ADD,PAGEIND,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_MIDCAP_100,ADD,RVNL,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,REMOVE,MAHABANK,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,REMOVE,BDL,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,REMOVE,BORORENEW,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,REMOVE,BCG,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,REMOVE,CARBORUNIV,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,REMOVE,EIDPARRY,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,REMOVE,FACT,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,REMOVE,GMMPFAUDLR,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,REMOVE,INDIACEM,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,REMOVE,JSL,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,REMOVE,KPITTECH,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,REMOVE,MAZDOCK,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,REMOVE,QUESS,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,REMOVE,RVNL,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,REMOVE,SAPPHIRE,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,REMOVE,STLTECH,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,REMOVE,TRIVENI,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,REMOVE,TV18BRDCST,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,REMOVE,VTL,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,ADD,AAVAS,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,ADD,AFFLE,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,ADD,APARINDS,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,ADD,BLS,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,ADD,CEATLTD,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,ADD,CIEINDIA,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,ADD,DATAPATTNS,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,ADD,EQUITASBNK,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,ADD,FINCABLES,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,ADD,HAPPSTMNDS,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,ADD,JBMA,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,ADD,JYOTHYLAB,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,ADD,NATCOPHARM,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,ADD,NSLNISP,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,ADD,SJVN,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,ADD,SONATSOFTW,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,ADD,TTML,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,ADD,TRITURBINE,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2023-09-29,NIFTY_SMALLCAP_100,ADD,ZENSARTECH,https://www.niftyindices.com/Press_Release/ind_prs17082023.pdf,official notice
+2024-03-28,NIFTY_100,REMOVE,AWL,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_100,REMOVE,MUTHOOTFIN,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_100,REMOVE,PIIND,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_100,REMOVE,PGHH,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_100,REMOVE,UPL,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_100,ADD,ADANIPOWER,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_100,ADD,IRFC,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_100,ADD,JIOFIN,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_100,ADD,PFC,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_100,ADD,RECLTD,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,REMOVE,ADANIPOWER,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,REMOVE,BATAINDIA,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,REMOVE,COROMANDEL,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,REMOVE,CROMPTON,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,REMOVE,DEVYANI,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,REMOVE,FLUOROCHEM,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,REMOVE,IRFC,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,REMOVE,MSUMI,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,REMOVE,NAVINFLUOR,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,REMOVE,PFC,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,REMOVE,RECLTD,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,REMOVE,RAMCOCEM,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,REMOVE,UBL,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,ADD,MAHABANK,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,ADD,BSE,https://www.niftyindices.com/Press_Release/ind_prs19032024.pdf,official replacement after IREDA inclusion was revoked
+2024-03-28,NIFTY_MIDCAP_100,ADD,GMRINFRA,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,ADD,IDBI,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,ADD,JSWINFRA,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,ADD,KALYANKJIL,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,ADD,OFSS,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,ADD,PIIND,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,ADD,SJVN,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,ADD,SUPREMEIND,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,ADD,SUZLON,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,ADD,TATATECH,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_MIDCAP_100,ADD,UPL,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,AEGISCHEM,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,BSE,https://www.niftyindices.com/Press_Release/ind_prs19032024.pdf,official replacement after IREDA inclusion was revoked
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,ANURAS,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,BALAMINES,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,BALRAMCHIN,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,BIKAJI,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,BIRLACORPN,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,CAMPUS,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,DEEPAKFERT,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,EASEMYTRIP,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,ELGIEQUIP,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,GRANULES,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,IDBI,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,JKLAKSHMI,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,JUBLINGREA,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,KALYANKJIL,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,KEI,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,KRBL,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,LATENTVIEW,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,LXCHEM,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,MEDPLUS,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,METROPOLIS,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,ROUTE,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,SJVN,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,SUZLON,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,UTIAMC,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,REMOVE,VIPIND,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,AARTIIND,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,BLUESTARCO,https://www.niftyindices.com/Press_Release/ind_prs19032024.pdf,official replacement after IREDA inclusion was revoked
+2024-03-28,NIFTY_SMALLCAP_100,ADD,ALOKINDS,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,CASTROLIND,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,CROMPTON,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,FIVESTAR,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,GESHIP,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,GMDCLTD,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,GSPL,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,HSCL,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,HONASA,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,IRCON,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,ITI,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,J&KBANK,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,NH,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,NAVINFLUOR,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,NCC,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,NAM-INDIA,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,OLECTRA,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,RRKABEL,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,RKFORGE,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,SHYAMMETL,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,SWANENERGY,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,TATAINVEST,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,TITAGARH,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,TRIDENT,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-03-28,NIFTY_SMALLCAP_100,ADD,UJJIVANSFB,https://www.niftyindices.com/Press_Release/ind_prs28022024.pdf,official semi-annual review
+2024-08-30,NIFTY_100,REMOVE,TATAMTRDVR,https://www.niftyindices.com/Press_Release/ind_prs23082024_1.pdf,official DVR cancellation
+2024-09-30,NIFTY_100,REMOVE,BERGEPAINT,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_100,REMOVE,COLPAL,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_100,REMOVE,MARICO,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_100,REMOVE,SBICARD,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_100,REMOVE,SRF,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_100,ADD,BHEL,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_100,ADD,JSWENERGY,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_100,ADD,LODHA,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_100,ADD,NHPC,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_100,ADD,UNIONBANK,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,REMOVE,BHEL,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,REMOVE,DALBHARAT,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,REMOVE,DEEPAKNTR,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,REMOVE,LALPATHLAB,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,REMOVE,FORTIS,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,REMOVE,GLAND,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,REMOVE,GUJGASLTD,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,REMOVE,IPCALAB,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,REMOVE,JSWENERGY,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,REMOVE,LTTS,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,REMOVE,LAURUSLABS,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,REMOVE,LODHA,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,REMOVE,NHPC,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,REMOVE,PEL,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,REMOVE,SUNTV,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,REMOVE,SYNGENE,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,REMOVE,UNIONBANK,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,REMOVE,ZEEL,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,ADD,BHARTIHEXA,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,ADD,COCHINSHIP,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,ADD,COLPAL,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,ADD,EXIDEIND,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,ADD,HINDZINC,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,ADD,HUDCO,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,ADD,IOB,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,ADD,IREDA,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,ADD,IRB,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,ADD,MRPL,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,ADD,MARICO,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,ADD,MUTHOOTFIN,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,ADD,NLCINDIA,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,ADD,PHOENIXLTD,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,ADD,SBICARD,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,ADD,SOLARINDS,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,ADD,SRF,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_MIDCAP_100,ADD,SUNDARMFIN,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,ALOKINDS,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,CANFINHOME,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,CEATLTD,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,CIEINDIA,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,CUB,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,COCHINSHIP,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,EQUITASBNK,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,EXIDEIND,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,MEDANTA,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,GNFC,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,HSCL,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,HONASA,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,HUDCO,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,IOB,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,IRB,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,JBCHEPHARM,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,MRPL,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,NAM-INDIA,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,NLCINDIA,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,PRAJIND,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,RRKABEL,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,RENUKA,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,TATAINVEST,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,UJJIVANSFB,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,360ONE,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,AADHARHFC,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,ACE,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,AEGISLOG,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,ASTERDM,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,ATUL,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,BATAINDIA,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,BEML,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,BRIGADE,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,CHENNPETRO,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,LALPATHLAB,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,GRSE,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,GODIGIT,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,HBLPOWER,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,IFCI,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,INOXWIND,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,JWL,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,KPIL,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,KAYNES,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,LAURUSLABS,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,PEL,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,SIGNATURE,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,SWSOLAR,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,RAMCOCEM,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,ADD,ZEEL,https://www.niftyindices.com/Press_Release/ind_prs23082024.pdf,official semi-annual review
+2024-09-30,NIFTY_SMALLCAP_100,REMOVE,GRAPHITE,https://www.niftyindices.com/Press_Release/ind_prs25092024.pdf,official replacement following revocation
+2025-03-28,NIFTY_100,REMOVE,ATGL,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_100,REMOVE,BHEL,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_100,REMOVE,IRCTC,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_100,REMOVE,NHPC,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_100,REMOVE,UNIONBANK,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_100,ADD,BAJAJHFL,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_100,ADD,CGPOWER,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_100,ADD,HYUNDAI,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_100,ADD,INDHOTEL,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_100,ADD,SWIGGY,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,REMOVE,BALKRISIND,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,REMOVE,CGPOWER,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,REMOVE,DELHIVERY,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,REMOVE,FACT,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,REMOVE,IDBI,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,REMOVE,INDHOTEL,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,REMOVE,IOB,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,REMOVE,JSWINFRA,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,REMOVE,MRPL,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,REMOVE,NLCINDIA,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,REMOVE,POONAWALLA,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,REMOVE,SUNDARMFIN,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,REMOVE,TATACHEM,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,ADD,ATGL,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,ADD,BHEL,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,ADD,GLENMARK,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,ADD,IRCTC,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,ADD,MOTILALOFS,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,ADD,NATIONALUM,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,ADD,NHPC,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,ADD,NTPCGREEN,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,ADD,OLAELEC,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,ADD,PREMIERENE,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,ADD,UNIONBANK,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,ADD,VMM,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_MIDCAP_100,ADD,WAAREEENER,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,REMOVE,360ONE,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,REMOVE,AAVAS,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,REMOVE,APARINDS,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,REMOVE,BLUESTARCO,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,REMOVE,CENTRALBK,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,REMOVE,CHENNPETRO,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,REMOVE,FINCABLES,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,REMOVE,GLENMARK,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,REMOVE,GMDCLTD,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,REMOVE,HAPPSTMNDS,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,REMOVE,INTELLECT,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,REMOVE,J&KBANK,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,REMOVE,JYOTHYLAB,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,REMOVE,NATIONALUM,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,REMOVE,NSLNISP,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,REMOVE,OLECTRA,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,REMOVE,RAYMOND,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,REMOVE,RBLBANK,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,REMOVE,SWSOLAR,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,REMOVE,TANLA,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,REMOVE,UCOBANK,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,REMOVE,ZEEL,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,ADD,AFCONS,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,ADD,ANANTRAJ,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,ADD,FIRSTCRY,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,ADD,DELHIVERY,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,ADD,DEVYANI,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,ADD,GODFRYPHLP,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,ADD,HSCL,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,ADD,IDBI,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,ADD,IGIL,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,ADD,IKS,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,ADD,KFINTECH,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,ADD,NEULANDLAB,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,ADD,NEWGEN,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,ADD,NUVAMA,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,ADD,PCBL,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,ADD,PGEL,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,ADD,POONAWALLA,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,ADD,RPOWER,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,ADD,SAGILITY,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,ADD,TATACHEM,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,ADD,WELCORP,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-03-28,NIFTY_SMALLCAP_100,ADD,ZENTEC,https://www.niftyindices.com/Press_Release/ind_prs21022025.pdf,official semi-annual review
+2025-09-30,NIFTY_100,REMOVE,DABUR,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_100,REMOVE,HEROMOTOCO,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_100,REMOVE,ICICIPRULI,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_100,REMOVE,INDUSINDBK,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_100,REMOVE,SWIGGY,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_100,ADD,HINDZINC,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_100,ADD,MAXHEALTH,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_100,ADD,MAZDOCK,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_100,ADD,ENRIN,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_100,ADD,SOLARINDS,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_MIDCAP_100,REMOVE,ABFRL,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_MIDCAP_100,REMOVE,APOLLOTYRE,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_MIDCAP_100,REMOVE,BANDHANBNK,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_MIDCAP_100,REMOVE,MAHABANK,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_MIDCAP_100,REMOVE,ESCORTS,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_MIDCAP_100,REMOVE,HINDZINC,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_MIDCAP_100,REMOVE,MAXHEALTH,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_MIDCAP_100,REMOVE,MAZDOCK,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_MIDCAP_100,REMOVE,OLAELEC,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_MIDCAP_100,REMOVE,PETRONET,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_MIDCAP_100,REMOVE,SJVN,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_MIDCAP_100,REMOVE,SOLARINDS,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_MIDCAP_100,ADD,360ONE,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_MIDCAP_100,ADD,BLUESTARCO,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_MIDCAP_100,ADD,COROMANDEL,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_MIDCAP_100,ADD,DABUR,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_MIDCAP_100,ADD,FORTIS,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_MIDCAP_100,ADD,GODFRYPHLP,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_MIDCAP_100,ADD,HEROMOTOCO,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_MIDCAP_100,ADD,POWERINDIA,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_MIDCAP_100,ADD,INDUSINDBK,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_MIDCAP_100,ADD,ITCHOTELS,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_MIDCAP_100,ADD,KEI,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_MIDCAP_100,ADD,SWIGGY,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,REMOVE,ACE,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,REMOVE,BATAINDIA,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,REMOVE,BSOFT,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,REMOVE,GODFRYPHLP,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,REMOVE,GSPL,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,REMOVE,HFCL,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,REMOVE,IDBI,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,REMOVE,INDIAMART,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,REMOVE,ITI,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,REMOVE,PVRINOX,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,REMOVE,RAILTEL,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,REMOVE,RKFORGE,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,REMOVE,RITES,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,REMOVE,SONATSOFTW,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,REMOVE,TTML,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,REMOVE,TITAGARH,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,REMOVE,WELSPUNLIV,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,ADD,AEGISVOPAK,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,ADD,ANANDRATHI,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,ADD,APTUS,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,ADD,BANDHANBNK,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,ADD,CGCL,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,ADD,CHOLAHLDNG,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,ADD,DEEPAKFERT,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,ADD,GILLETTE,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,ADD,GLAND,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,ADD,JBCHEPHARM,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,ADD,JINDALSAW,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,ADD,JYOTICNC,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,ADD,MRPL,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,ADD,OLAELEC,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,ADD,STARHEALTH,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,ADD,WHIRLPOOL,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
+2025-09-30,NIFTY_SMALLCAP_100,ADD,WOCKPHARMA,https://www.niftyindices.com/Press_Release/ind_prs22082025.pdf,official semi-annual review
