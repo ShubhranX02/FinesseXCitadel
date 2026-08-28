@@ -1,9 +1,9 @@
-strategy_name: momentum_quality_quarterly
+strategy_name: momentum_quality_monthly
 start_date: '2021-01-01'
 end_date: '2025-12-31'
 initial_capital: 10000000
 transaction_cost_rate: 0.001
-rebalance_frequency: quarterly
+rebalance_frequency: monthly
 holdings: 9
 max_weight: 0.16
 min_price_history_days: 252
@@ -21,4 +21,4 @@ prices_path: data/raw/prices.csv
 universe_path: data/universe_fixed.csv
 fundamentals_path: data/raw/nse_fundamentals.csv
 benchmark_path: data/raw/benchmark.csv
-output_dir: outputs/momentum_quality_quarterly
+output_dir: outputs/momentum_quality_monthly
