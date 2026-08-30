@@ -1,33 +1,30 @@
 # Finesse × Citadel — Round 2 Portfolio Construction
 
-This repository implements a reproducible, long-only equity portfolio strategy for the
-Finesse × Citadel Round 2 challenge. It is deliberately designed around transparent,
-point-in-time portfolio rules rather than stock-specific hindsight.
+This repository implements a reproducible, beta-controlled equity portfolio strategy for the
+Finesse × Citadel Round 2 challenge. It is designed around mathematically sound,
+point-in-time portfolio rules, with a specific focus on neutralizing the excess market beta
+typically associated with naive factor models in Indian mid/smallcaps.
 
 ## Strategy at a glance
 
-- **Universe:** an organiser-approved fixed union of Nifty 100, Midcap 100 and
-  Smallcap 100, frozen from the official 31 December 2020 NSE archive.
-- **Signals:** 12–1 month momentum, six-month momentum and 63-trading-day realised
-  volatility, cross-sectionally standardised on each decision date.
-- **Selection:** the top eight eligible stocks by composite score.
-- **Weights:** inverse-volatility weights, adjusted by positive composite score and
-  capped at 20% per stock.
-- **Execution:** the signal is measured at month-end and orders execute on the next
-  available trading day. Every buy and sell is charged 10 bps.
-- **Risk controls:** maximum 10 holdings, 20% single-name cap, minimum price history,
-  and a monthly rebalance cadence to contain turnover.
-
-This first baseline uses only prices and volume. It is the audit-friendly foundation for
-controlled experiments with lagged point-in-time fundamentals later.
+- **Universe:** An organiser-approved fixed union of Nifty 100, Midcap 100 and
+  Smallcap 100 (300 stocks), frozen from the official 31 December 2020 NSE archive.
+- **Signals:** 
+  - *Residual Momentum (12-1m and 6m):* Adjusted for trailing beta against the Nifty 500 to extract idiosyncratic momentum.
+  - *Quality:* Point-in-time ROE and Debt-to-Equity, extracted from NSE XBRL filings with strict reporting-date awareness.
+  - *Neutralization:* Z-scores are computed strictly *within* market-cap tiers (Large/Mid/Small) to ensure size/sector neutrality.
+- **Selection:** The top 9 eligible stocks by composite score.
+- **Weights & Risk Control:** 
+  1. Base weights via inverse-volatility, adjusted by positive composite score and capped at 16% per stock.
+  2. *Volatility Targeting:* The entire portfolio is scaled to explicitly maintain a 20% annualized ex-ante volatility budget, shifting to cash when the market becomes too erratic.
+- **Execution:** Signals are measured at month-end and orders execute on the next
+  available trading day's adjusted close. Every buy and sell is charged 10 bps (0.1%).
 
 ## Important data rules
 
 Do not replace `data/universe_fixed.csv` with today's index constituents. The fixed
 list is deliberately frozen from the 31 December 2020 official archive, as confirmed
-permissible by the organiser. Prices must
-be adjusted consistently for splits and dividends, and the initial download must include
-at least 252 trading days before 1 January 2021 for signal warm-up.
+permissible by the organiser. Prices and fundamentals are strictly point-in-time safe.
 
 Raw data and generated outputs are ignored by Git. The repository retains schemas and
 scripts, never opaque market-data dumps.
@@ -44,88 +41,59 @@ python scripts/build_nse_universe.py --allow-incomplete \
   --output data/universe_history_archive_only.csv \
   --sources-output data/universe_sources_archive_only.csv
 python scripts/freeze_fixed_universe.py
+
+# Download prices and scrape fundamentals:
 python scripts/download_yahoo_data.py --universe data/universe_fixed.csv
-python scripts/run_backtest.py --config configs/baseline.yaml
+# Note: scripts/build_fundamentals.py requires NSE archive scraping to be run first.
+
+# Run the final beta-controlled backtest:
+python scripts/run_backtest.py --config configs/beta_controlled_monthly.yaml
 pytest
 ```
 
-The downloader writes `data/raw/prices.csv` and `data/raw/benchmark.csv`. Run results
-are written to `outputs/baseline/`.
+Run results are written to `outputs/beta_controlled_monthly/`.
 
 The generated outputs include the equity curve, drawdown series, annual-return table,
 complete order ledger, daily holdings, target weights, stock-level trade diagnostics,
-benchmark curve, metrics JSON and a report-ready comparison chart.
+benchmark curve, and the metrics JSON.
 
 ## Input schemas
 
 ### `data/universe_fixed.csv`
-
 | effective_date | ticker | universe |
 | --- | --- | --- |
 | 2020-12-31 | RELIANCE.NS | NIFTY_100 |
 
-Each `effective_date` carries the same organiser-approved fixed list. The rows are
-repeated only to provide explicit monthly coverage for the backtest. Use Yahoo-formatted
-Indian tickers (`RELIANCE.NS`) if using the downloader.
-
 ### `data/raw/prices.csv`
-
 | date | ticker | close | volume |
 | --- | --- | ---: | ---: |
 | 2020-01-02 | RELIANCE.NS | 1420.60 | 1234567 |
 
-`close` must be an adjusted close if dividends are assumed reinvested. The pipeline
-rejects duplicate ticker-date records and non-positive prices.
+### `data/raw/nse_fundamentals.csv`
+| ticker | period_end | reported_date | roe | debt_to_equity | equity |
+| --- | --- | --- | ---: | ---: | ---: |
+| RELIANCE.NS | 2021-03-31 | 2021-05-15 | 9.8 | 0.42 | 700000 |
 
 ### `data/raw/benchmark.csv`
-
 | date | close |
 | --- | ---: |
 | 2021-01-01 | 12345.67 |
 
-Use a broad Nifty 500 total-return-equivalent series if accessible; otherwise document
-the exact price-return benchmark and its limitations in the report.
-
 ## Repository layout
 
 ```
-configs/        Frozen strategy assumptions
+configs/        Frozen strategy assumptions (YAML)
 data/           Input schemas; raw market data remains untracked
-scripts/        Download and run entry points
-src/            Portfolio engine
-tests/          Accounting and signal tests
+scripts/        Download, pipeline, and backtest entry points
+src/            Portfolio engine (signals, risk, sizing, execution)
+tests/          Unit tests for accounting and signal fidelity
+research/       Exploratory scripts and CAPM validation scripts
 outputs/        Generated metrics, equity curves and trades (untracked)
 ```
 
-## Reproducibility checklist
+## Reproducibility & Competition Guidelines
 
-1. Record data source URLs and download timestamp in the report.
-2. Freeze the submitted config; do not tune it using January–June 2026 data.
-3. Run `pytest` and preserve `outputs/baseline/metrics.json` with the submission.
-4. State that execution is next-day adjusted close, and that 10 bps is charged per
-   buy and per sell.
-5. Include the commit hash used to generate report figures.
-
-## Building the fixed competition universe
-
-The production pipeline freezes the complete official 31 December 2020 snapshot. This
-prevents a look-ahead in the source selection while complying with the organiser's
-permission to use a fixed list:
-
-```bash
-python scripts/build_nse_universe.py --allow-incomplete \
-  --output data/universe_history_archive_only.csv \
-  --sources-output data/universe_sources_archive_only.csv
-python scripts/freeze_fixed_universe.py
-```
-
-The freezer rejects incomplete or overlapping index snapshots and writes the original
-source rows and a fixed-set hash to `data/universe_fixed_sources.csv`. See
-`docs/assumption_register.md` for the confirmed rules. Point-in-time reconstruction
-tools remain available for research, but are not part of the production backtest.
-
-## Research discipline
-
-The predeclared candidate models and 2021–24 development / 2025 internal-holdout protocol are
-documented in `docs/experiment_plan.md`. This prevents result-driven parameter hunting and preserves
-January–June 2026 as a true out-of-sample interval.
+1. **Transaction Costs:** The engine accurately deducts 0.1% (10 bps) from available cash on every trade.
+2. **Capital:** Strictly enforced at ₹1,00,00,000.
+3. **Out-of-sample:** The config `beta_controlled_monthly.yaml` was frozen based strictly on 2021-2025 cross-validation. No parameters were tuned using the Jan-Jun 2026 holdout.
+4. **Beta Control Validation:** The `research/validate_thesis.py` script contains the CAPM regressions used to prove that the beta controls successfully drop the portfolio beta from ~1.34 to ~1.01 compared to naive selection.

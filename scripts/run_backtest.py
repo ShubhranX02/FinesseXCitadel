@@ -42,7 +42,8 @@ def main() -> None:
     prices = prices_to_wide(load_prices(config.prices_path))
     universe = load_universe(config.universe_path)
     fundamentals = load_fundamentals(config.fundamentals_path) if config.fundamentals_path else None
-    result = run_backtest(prices, universe, config, fundamentals)
+    benchmark_series = load_benchmark(config.benchmark_path)
+    result = run_backtest(prices, universe, config, fundamentals, benchmark_series)
     benchmark = benchmark_nav(load_benchmark(config.benchmark_path), config, result.nav.index)
     metrics = performance_metrics(result.nav, config.initial_capital, result.realised_sales)
     benchmark_metrics = performance_metrics(benchmark, config.initial_capital, pd.DataFrame())

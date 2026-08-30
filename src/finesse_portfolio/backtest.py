@@ -5,7 +5,7 @@ from dataclasses import dataclass
 import pandas as pd
 
 from .config import StrategyConfig
-from .signals import factor_scores, rebalance_dates, target_weights
+from .signals import apply_vol_target, factor_scores, rebalance_dates, target_weights
 
 
 @dataclass
@@ -27,6 +27,7 @@ def run_backtest(
     universe: pd.DataFrame,
     config: StrategyConfig,
     fundamentals: pd.DataFrame | None = None,
+    benchmark: pd.Series | None = None,
 ) -> BacktestResult:
     start, end = pd.Timestamp(config.start_date), pd.Timestamp(config.end_date)
     dates = prices.index[(prices.index >= start) & (prices.index <= end)]
@@ -63,9 +64,9 @@ def run_backtest(
         execution_date = _next_trading_date(prices.index, decision_date)
         if execution_date is None or execution_date < start or execution_date > end:
             continue
-        weights = target_weights(
-            factor_scores(prices, decision_date, universe, config, fundamentals), config
-        )
+        scores = factor_scores(prices, decision_date, universe, config, fundamentals, benchmark)
+        weights = target_weights(scores, config)
+        weights = apply_vol_target(weights, prices, decision_date, config)
         schedules[execution_date] = weights
 
     for date in dates:

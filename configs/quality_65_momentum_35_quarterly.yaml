@@ -1,0 +1,23 @@
+strategy_name: quality_65_momentum_35_quarterly
+start_date: '2021-01-01'
+end_date: '2025-12-31'
+initial_capital: 10000000
+transaction_cost_rate: 0.001
+rebalance_frequency: quarterly
+holdings: 9
+max_weight: 0.16
+min_price_history_days: 252
+momentum_long_days: 252
+momentum_skip_days: 21
+momentum_short_days: 126
+volatility_days: 63
+signal_weights:
+  quality_roe_debt: 0.65
+  momentum_12_1: 0.25
+  momentum_6: 0.10
+benchmark_name: NIFTY_500
+prices_path: data/raw/prices.csv
+universe_path: data/universe_fixed.csv
+fundamentals_path: data/raw/nse_fundamentals.csv
+benchmark_path: data/raw/benchmark.csv
+output_dir: outputs/quality_65_momentum_35_quarterly

@@ -28,6 +28,9 @@ class StrategyConfig:
     output_dir: str
     rebalance_frequency: str = "monthly"
     fundamentals_path: str | None = None
+    use_residual_momentum: bool = False
+    neutralize_by: str | None = None  # "universe" for size-neutral z-scoring
+    target_volatility: float | None = None  # annual target, e.g. 0.20
 
     @classmethod
     def from_yaml(cls, path: str | Path) -> StrategyConfig:
@@ -43,6 +46,10 @@ class StrategyConfig:
             raise ValueError("holdings × max_weight must be at least 1.")
         if sum(values["signal_weights"].values()) <= 0:
             raise ValueError("signal_weights must have a positive total.")
+        if values.get("neutralize_by") not in {None, "universe"}:
+            raise ValueError("neutralize_by must be None or 'universe'.")
+        if values.get("target_volatility") is not None and values["target_volatility"] <= 0:
+            raise ValueError("target_volatility must be positive.")
         return cls(
             **{
                 name: values.get(name, field.default)

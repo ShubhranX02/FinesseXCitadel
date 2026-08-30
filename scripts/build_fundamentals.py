@@ -209,7 +209,7 @@ def process_symbol(ticker: str) -> tuple[list[dict[str, object]], list[dict[str,
             equity = None if equity is None else equity * 10_000_000
             debt = None if fallback_debt is None else fallback_debt * 10_000_000
             equity_source = "SCREENER_BALANCE_SHEET"
-        complete = profit is not None and equity not in {None, 0}
+        complete = profit is not None and equity is not None and float(equity) > 0
         # Deposit funding is not comparable to corporate debt, so regulated banks
         # are not scored by this debt-penalised quality factor.
         is_bank = filing.get("bank") == "B"
