@@ -169,7 +169,7 @@ pdf.draw_table(results_data, [95, 65])
 
 pdf.set_font("helvetica", "I", 9.5)
 pdf.set_text_color(100, 100, 100)
-pdf.multi_cell(0, 5, "*Note: Sharpe Ratio and Alpha are derived from daily arithmetic mean returns. For transparent reconciliation: Strategy Arithmetic Ann = 28.75%, Benchmark Arithmetic Ann = 15.81%, Risk-Free = 6.0%. Thus, Alpha = (28.75% - 6.0%) - 1.01 * (15.81% - 6.0%) = 12.8%. The headline 30.56% return is geometric (CAGR).")
+pdf.multi_cell(0, 5, "*Note: Sharpe Ratio and Alpha are derived from daily arithmetic mean returns. For transparent reconciliation: Strategy Arithmetic Ann = 28.75%, Benchmark Arithmetic Ann = 15.81%, Risk-Free = 0.0% (per rules). Thus, Alpha = 28.75% - 1.01 * 15.81% = 12.8%. The headline 30.56% return is geometric (CAGR).")
 pdf.ln(4)
 
 pdf.subsection_title("5.1 Sub-Period Consistency (Year-on-Year)")
